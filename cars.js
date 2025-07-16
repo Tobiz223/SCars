@@ -306,20 +306,6 @@ const data = [
         image: "img/download (2).jpg",
         price: "32000$",
         ishere: "Свободна"
-    },
-    {
-        brand: "SanyaPedik",
-        model: "QX60",
-        image: "img/download (2).jpg",
-        price: "32000$",
-        ishere: "Свободна"
-    },
-    {
-        brand: "LubluMuzchin",
-        model: "Da",
-        image: "img/download (2).jpg",
-        price: "$",
-        ishere: "Свободна"
     }
 ];
 
