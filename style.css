@@ -1,0 +1,24 @@
+#cards-container {
+    display: flex;
+    /* flex-wrap: wrap; <-- ЭТО ДОЛЖНО БЫТЬ УДАЛЕНО! */
+    /* По умолчанию flex-wrap: nowrap; если не указано */
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 10px;
+    overflow-x: auto; /* Позволяет горизонтальную прокрутку */
+    /* white-space: nowrap; /* Может быть полезно, но не всегда строго необходимо с flex-shrink: 0 */
+}
+
+.card {
+    width: 300px;
+    flex-shrink: 0; /* ОЧЕНЬ ВАЖНО: не дает карточкам сжиматься */
+    /* ... остальные ваши стили для карточки ... */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #1e262e;
+    flex-direction: column;
+    height: 100%;
+}
